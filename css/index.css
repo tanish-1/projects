@@ -139,11 +139,15 @@ color: grey;
     border: 2px solid grey;
     border-radius: 9px;
 }
-.background{
+.background1{
+    background: rgba(0,0,0,0.7) url('../assets/back2.jpg');
+    background-size: cover;
+  background-blend-mode: darken;
+}
+.background2{
     background: rgba(0,0,0,0.7) url('../assets/back1.jpg');
     background-size: cover;
   background-blend-mode: darken;
-  
 }
 .box-main{
     display: flex;
